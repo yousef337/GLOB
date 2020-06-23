@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sa.com.al_taher.yousef.glob_al_beeay_and.exRes">
+
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="right"
+        android:layoutDirection="rtl"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="false"
+            android:background="@android:color/darker_gray"
+            android:layoutDirection="rtl"
+            app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:paddingRight="80px"
+                android:text="رقم السؤال" />
+
+            <TextView
+                android:paddingRight="115px"
+                android:text="اجابتك" />
+
+            <TextView
+                android:paddingRight="120px"
+                android:text="الاجابة الصحيحة" />
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</android.support.constraint.ConstraintLayout>

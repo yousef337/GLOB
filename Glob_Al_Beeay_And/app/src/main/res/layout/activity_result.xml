@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/maxresdefaultmin"
+    tools:context="sa.com.al_taher.yousef.glob_al_beeay_and.Result">
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="114dp"
+        android:layout_height="115dp"
+        android:layout_marginBottom="96dp"
+        android:layout_marginEnd="210dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/btnreturnmin"
+        android:onClick="GoToQuestions"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="222dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="59dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="80dp"
+        android:text="النتيجة"
+        android:textAlignment="center"
+        android:textSize="@android:dimen/notification_large_icon_width"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="76dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="140dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="59dp"
+        android:text="0/10"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="110dp"
+        android:layout_height="103dp"
+        android:layout_marginBottom="29dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="296dp"
+        android:background="@drawable/images"
+        android:onClick="GoToCheRes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button6"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="161dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="11dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginStart="205dp"
+        android:layout_marginTop="143dp"
+        android:text="لمشاهدة النتيجة"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="137dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="48dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginStart="265dp"
+        android:layout_marginTop="129dp"
+
+        android:background="@drawable/buttonshapeforlevels"
+        android:onClick="GotToLevel"
+        android:text="اذهب للمستويات"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sa.com.al_taher.yousef.glob_al_beeay_and">
+
+    <application
+        android:allowBackup="true"
+        android:largeHeap="true"
+
+        android:icon="@mipmap/icon"
+        android:label="لعبة جلوب البيئي"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="لعبة جلوب البيئي">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Quesions"
+            android:label="اختبار جلوب البيئي"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".about"
+            android:label="عن لعبة جلوب البيئي" />
+        <activity android:name=".Result" />
+        <activity android:name=".exRes" />
+        <activity android:name=".Levels"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/anythingmuppet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mounttmin"
+    android:minHeight="0dp"
+    tools:context="sa.com.al_taher.yousef.glob_al_beeay_and.Levels">
+
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="108dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginStart="117dp"
+        android:background="@drawable/buttonshapeforlevels"
+        android:onClick="Level1"
+        android:text="المستوى الاول"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button13" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="108dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="128dp"
+        android:layout_marginEnd="226dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="238dp"
+        android:background="@drawable/buttonshapeforlevels"
+        android:onClick="Level2"
+        android:text="المستوى الثاني"
+        app:layout_constraintBottom_toTopOf="@+id/button14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="108dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="317dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="49dp"
+        android:background="@drawable/buttonshapeforlevels"
+        android:onClick="Level3"
+        android:text="المستوى الثالث"
+        app:layout_constraintBottom_toTopOf="@+id/button14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
